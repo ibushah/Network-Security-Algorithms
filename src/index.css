@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s !important;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff !important;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+
+.ant-card-head-title{
+  font-size: 18px;
+  font-style:italic;
+  color: #001529 ;
+  font-weight: bold;
+}
+
+#decrypt{
+  color:#f10e2d !important;
+}
+
+.buttonStyle:hover{
+  background-color: #001529;
+  color:white;
+}
